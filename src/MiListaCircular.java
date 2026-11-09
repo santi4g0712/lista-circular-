@@ -233,7 +233,7 @@ private int getItem;
 
     @Override
     public MiListaCircular sortList() {
-        // Ordenamiento por burbuja adaptado para lista circular
+
         if (size <= 1) return this;
 
         boolean swapped;
@@ -242,7 +242,6 @@ private int getItem;
             Node current = head;
             for (int i = 0; i < size - 1; i++) {
                 Node nextNode = current.getNext();
-                // Asumiendo que los elementos implementan Comparable
                 Comparable val1 = (Comparable) current.getItem();
                 Comparable val2 = (Comparable) nextNode.getItem();
 

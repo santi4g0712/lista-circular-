@@ -8,7 +8,7 @@ public class Node {
         this.siguiente = null;
     }
 
-
+    // --- Métodos en Español ---
     public Object getDato() {
         return dato;
     }
@@ -25,7 +25,7 @@ public class Node {
         this.siguiente = siguiente;
     }
 
-
+    // --- Métodos en Inglés (Aliases de compatibilidad) ---
     public Object getItem() {
         return dato;
     }

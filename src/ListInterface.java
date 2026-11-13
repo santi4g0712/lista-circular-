@@ -40,8 +40,8 @@ public interface ListInterface {
 
     public Object[] toArray(Object[] object);
 
-    public MiListaCircular subList(Node from, Node to);
+    public MiListCircular subList(Node from, Node to);
 
-    public MiListaCircular sortList();
+    public MiListCircular sortList();
 
 }
